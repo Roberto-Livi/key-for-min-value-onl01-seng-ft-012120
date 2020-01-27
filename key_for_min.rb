@@ -10,7 +10,7 @@ def key_for_min_value(hash)
       key = k
       end
   end
-  puts key
+  key
 end
 
 tennis_racquets = {
