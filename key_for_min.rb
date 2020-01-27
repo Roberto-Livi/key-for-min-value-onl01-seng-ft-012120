@@ -2,7 +2,7 @@ def key_for_min_value(hash)
   if hash.empty?
     return nil
   end
-  i = hash.[0] + 1
+  i = 46
   key = ""
   hash.each do |k, v|
       if v < i
