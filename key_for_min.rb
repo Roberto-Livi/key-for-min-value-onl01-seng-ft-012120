@@ -1,6 +1,6 @@
 def key_for_min_value(hash)
   if hash.empty?
-    nil
+    return nil
   end
   i = hash.values[0] + 1
   key = ""
